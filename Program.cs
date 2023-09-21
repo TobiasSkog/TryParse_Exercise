@@ -5,8 +5,9 @@
     static void Main(string[] args)
     {
 
-
-      Exempel4("Skriv en siffra: ");
+      //Vi vill att metoden returnerar värdet som användaren gav
+      //oss denna gången!
+      int userWantThisInteger = Exempel4("Skriv ett heltal: ");
 
 
     }
@@ -16,7 +17,7 @@
 
 
 
-    public static void Exempel4(string question)
+    public static int Exempel4(string question)
     {
       // Skapar en oändlig loop för att kunna fortsätta fråga användaren tills vi får
       // en input vi kan konvertera till en integer.
