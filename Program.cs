@@ -8,8 +8,8 @@
       //Vi vill att metoden returnerar värdet som användaren gav
       //oss denna gången!
       int userWantThisInteger = Exempel4("Skriv ett heltal: ");
-
-
+      
+      Console.WriteLine($"{userWantThisInteger} är ett bra heltal!");
     }
 
 
